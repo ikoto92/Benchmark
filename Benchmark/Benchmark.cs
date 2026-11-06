@@ -23,6 +23,7 @@ public class Benchmark
             {
                 var hashBytes = md5.ComputeHash(stream);
                 return BitConverter.ToString(hashBytes).Replace("-", "").ToLower();
+                
             }
         }
     }
